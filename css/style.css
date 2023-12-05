@@ -1,0 +1,145 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+body {
+    background-color: gainsboro;
+}
+
+.header div .logo img {
+    filter: invert();
+}
+
+ul {
+    list-style: none;
+}
+
+.header div {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 75px;
+    padding: 20px;
+}
+
+.lista li a {
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+
+.lista {
+    display: flex;
+}
+
+
+.links {
+    list-style: none;
+}
+
+
+.tarjeta {
+    background-color: #c8c8c892;
+    width: 250px;
+    height: 300px;
+
+
+}
+
+.fotografia-contenido {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-content: space-evenly;
+    justify-content: center;
+}
+
+.section-fotografia img {
+    height: 390px;
+    width: 920px;
+    padding: 50px;
+
+}
+
+.main .section-fotografia {
+    padding-top: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fotografia h3 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.testimonio {
+    padding: 50px 50px 50px 50px;
+    display: flex;
+    align-items: center;
+}
+
+.main .vision {
+    padding: 50px 50px 50px 50px;
+    display: flex;
+    align-items: center;
+}
+
+.mainQuienesSomos {
+   
+    margin: 200px;
+
+}
+
+.imagenQuienesSomos {
+        width: 100%;
+        height: auto;
+}
+
+
+.contacto {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 50px 50px 50px;
+}
+
+.agendar {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 50px 50px 50px;
+}
+
+.imagenAgendar {
+    width: 100%;
+    height: auto;
+}
+
+
+
+.footer {
+    background-color: rgb(34, 33, 33);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none
+}
