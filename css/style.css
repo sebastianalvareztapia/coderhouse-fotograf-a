@@ -12,7 +12,16 @@ body {
 
 .header div .logo img {
     filter: invert();
+    aspect-ratio: 1/1;
 }
+
+
+.logo {
+    max-width: 45px;
+    min-height: 45px;
+
+}
+
 
 ul {
     list-style: none;
@@ -39,7 +48,7 @@ ul {
 .lista {
     display: flex;
 }
-gi
+
 
 .links {
     list-style: none;
@@ -68,6 +77,10 @@ gi
     width: 920px;
     padding: 50px;
 
+}
+
+.section-fotografia {
+    padding: 20px;
 }
 
 .main .section-fotografia {
@@ -147,4 +160,52 @@ gi
     align-items: center;
     justify-content: center;
     list-style: none
+}
+
+.navbar-mobile {
+    display: none;
+}
+
+
+
+@media screen and (max-width: 576px) {
+   
+    .navbar-mobile {
+        display: initial;
+    }
+
+    .navbar-desktop {
+        display: none;
+    }
+
+    .body {
+        display: block
+    }
+
+    .vision {
+        flex-direction: column;
+    }
+
+    .testimonio {
+        flex-direction: column;
+    }
+
+    .header {
+        background-color: none;
+    }
+
+    .header div {
+        justify-content: space-evenly;
+    }
+
+    .div.lista {
+        display: none;
+        padding: auto;
+    
+    }
+
+    .foto-testimonio {
+        min-width: 100%;
+        min-height: 100%;
+    }
 }

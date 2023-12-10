@@ -6,12 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>fotografía Sebastián Álvarez</title>
     <link rel="shortcut icon" href="./img/camera-icon-21.png" type="image/x-icon">
-
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
-    
+
 </head>
 
-<body>
+<body class="body">
 
     <header class="header">
 
@@ -21,7 +22,35 @@
                 <img src="img/camera-icon-21.png" alt="Logo Sebastián Álvarez" width="50px" height="50px">
             </div>
 
-            <nav class="nav">
+
+
+            <nav class="navbar-mobile">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">Navbar</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Features</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Pricing</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <nav class="navbar-desktop">
                 <ul class="lista">
                     <li><a href="#">home</a></li>
                     <li><a href="./pages/fotografia.html">fotografía</a></li>
@@ -29,7 +58,6 @@
                     <li><a href="./pages/quienes somos.html">quienes somos</a></li>
                     <li><a href="./pages/contacto.html">contacto</a></li>
                 </ul>
-
             </nav>
 
 
@@ -51,6 +79,8 @@
     </header>
 
 
+
+
     <main class="main">
 
         <section class="section-fotografia">
@@ -59,10 +89,33 @@
             <a href="https://api.whatsapp.com/send/?phone=56988960824"> Cotiza</a>
             <br>
 
-            <img class="img-foto" width="500" src="img/photo-1531865272530-d60338729e28.avif">
-
         </section>
         <hr>
+
+        <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./img/jakob-owens-DQPP9rVLYGQ-unsplash.jpg" class="d-block w-100" alt="..."
+                        style="width: auto;" height="450px">
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/jakob-owens-DQPP9rVLYGQ-unsplash.jpg" class="d-block w-100" alt="..."
+                        style="width: auto;" height="450px">
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/jakob-owens-DQPP9rVLYGQ-unsplash.jpg" class="d-block w-100" alt="..."
+                        style="width: auto;" height="450px">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
 
 
         <section class="fotografia">
@@ -123,7 +176,7 @@
                     aspernatur. Quo, aut explicabo.</p>
             </DIV>
 
-            <img src="img/photo-1624224971170-2f84fed5eb5e.avif" alt="foto cliente testimonio" width="400">
+            <img class="foto-testimonio" src="img/photo-1624224971170-2f84fed5eb5e.avif" alt="foto cliente testimonio" width="85vh">
 
         </section>
         <hr>
@@ -137,15 +190,12 @@
                     sequi laboriosam aut pariatur!</p>
             </div>
 
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/E-xC0zz4xW0?si=WJgbWMpJlPzPcBVd"
-                title="YouTube video player" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowfullscreen></iframe>
+            <iframe width="100%" height="315" src="https://www.youtube.com/embed/7QU1nvuxaMA?si=tF8VaJ84xzUoQ5lX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
         </section>
         <hr>
 
-
+        
     </main>
 
 
@@ -172,7 +222,9 @@
         </Div>
     </footer>
 
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
