@@ -10,10 +10,6 @@ body {
     background-color: gainsboro;
 }
 
-.header div .logo img {
-    filter: invert();
-    aspect-ratio: 1/1;
-}
 
 
 .logo {
@@ -28,12 +24,9 @@ ul {
 }
 
 .header div {
-    background-color: black;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 75px;
-    padding: 20px;
 }
 
 .lista li a {
@@ -47,6 +40,7 @@ ul {
 
 .lista {
     display: flex;
+    
 }
 
 
@@ -92,7 +86,6 @@ ul {
 
 .fotografia h3 {
     padding-top: 50px;
-    padding-bottom: 50px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -134,6 +127,7 @@ ul {
     flex-direction: column;
     align-items: center;
     padding: 50px 50px 50px 50px;
+    justify-content: space-evenly;
 }
 
 .agendar {
@@ -166,13 +160,31 @@ ul {
     display: none;
 }
 
+.lista {
+    padding: auto;
+}
 
+.logo-redes {
+    min-width: 20px;
+    max-width: 35px;
+}
+
+.logo-camara {
+    max-width: 50px;
+    flex-wrap: wrap;
+}
+
+.navbar {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    padding: 20px;
+
+}
 
 @media screen and (max-width: 576px) {
    
-    .navbar-mobile {
-        display: initial;
-    }
+
 
     .navbar-desktop {
         display: none;
@@ -208,4 +220,18 @@ ul {
         min-width: 100%;
         min-height: 100%;
     }
+
+.logo {
+    height: 20px;
+    width: 20px;
+}
+
+.logo-redes {
+    display: none;
+}
+
+.logo-redes-1 {
+    max-width: 25px;
+}
+
 }
