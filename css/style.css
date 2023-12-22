@@ -26,7 +26,7 @@ ul {
 .header div {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+
 }
 
 .lista li a {
@@ -98,13 +98,11 @@ ul {
 
 .testimonio {
     padding: 50px 50px 50px 50px;
-    display: flex;
     align-items: center;
 }
 
 .main .vision {
     padding: 50px 50px 50px 50px;
-    display: flex;
     align-items: center;
 }
 
@@ -176,11 +174,14 @@ ul {
 
 .navbar {
     display: flex;
-    flex-wrap: nowrap;
     width: 100%;
     padding: 20px;
 
 }
+
+.navbar-brand {
+    max-width: 55px;
+    max-height: 55px;
 
 @media screen and (max-width: 576px) {
    
@@ -194,9 +195,6 @@ ul {
         display: block
     }
 
-    .vision {
-        flex-direction: column;
-    }
 
     .testimonio {
         flex-direction: column;
@@ -232,6 +230,10 @@ ul {
 
 .logo-redes-1 {
     max-width: 25px;
+}
+
+
+
 }
 
 }
