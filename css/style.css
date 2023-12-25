@@ -16,9 +16,12 @@ body {
     max-width: 45px;
     min-height: 45px;
 
+
 }
 
-
+.navbar-brand {
+    filter: invert() 
+}
 
 ul {
     list-style: none;
@@ -216,10 +219,13 @@ ul {
 
 }
 
+
 .navbar-brand {
     max-width: 55px;
     max-height: 55px;
 }
+
+
 
 
 @media screen and (max-width: 576px) {
