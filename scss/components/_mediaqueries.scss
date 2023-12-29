@@ -1,0 +1,86 @@
+@media screen and (max-width: 576px) {
+
+
+
+    .navbar-desktop {
+        display: none;
+    }
+
+    .body {
+        display: block
+    }
+
+    .header {
+        background-color: none;
+    }
+
+    .header div {
+        justify-content: space-evenly;
+    }
+
+    .div.lista {
+        display: none;
+        padding: auto;
+
+    }
+
+
+    .logo {
+        height: 20px;
+        width: 20px;
+    }
+
+    .logo-redes {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .logo-redes-1 {
+        max-width: 25px;
+    }
+
+    .foto-testimonio {
+        width: 100%;
+        height: 100%;
+    }
+
+    .testimonio {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .vision {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .videoVimeo {
+        width: 100%;
+    }
+
+    .header div {
+        display: flex;
+        justify-content: flex-start;
+
+    }
+
+    .container-fluid {
+        flex-direction: none;
+    }
+
+    .container-fluid {
+        display: flex;
+        flex-wrap: inherit;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+
+    .testimonio .foto-testimonio {
+        object-fit: cover;
+        width: 100%;
+
+    }
+}
+
+

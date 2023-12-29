@@ -1,0 +1,49 @@
+
+
+.container-fluid {
+    display: flex;
+    flex-wrap: inherit;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+.navbar-mobile {
+    display: none;
+}
+
+.lista {
+    padding: auto;
+}
+
+.logo-redes {
+    min-width: 20px;
+    max-width: 35px;
+}
+
+.logo-camara {
+    max-width: 50px;
+    flex-wrap: wrap;
+}
+
+.navbar {
+    display: flex;
+    width: 100%;
+    padding: 20px;
+
+}
+
+
+.navbar-brand {
+    max-width: 55px;
+    max-height: 55px;
+}
+
+.navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: 0;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}

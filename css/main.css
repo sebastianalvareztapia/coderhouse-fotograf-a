@@ -1,0 +1,226 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Playfair Display", serif;
+}
+
+body {
+  background-color: gainsboro;
+}
+
+.main .section-fotografia {
+  padding-top: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px;
+}
+
+.tarjeta {
+  background-color: gainsboro;
+  width: 250px;
+  height: 350px;
+  margin: 20px;
+  text-align: center;
+}
+.tarjeta p {
+  padding-top: 20px;
+}
+.tarjeta .btn-primary {
+  --bs-btn-color: #fff;
+  --bs-btn-bg: #000000;
+  --bs-btn-border-color: #000000;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #000000;
+  --bs-btn-hover-border-color: #000000;
+  --bs-btn-focus-shadow-rgb: 49, 132, 253;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: rgb(83, 83, 83);
+  --bs-btn-active-border-color: rgb(83, 83, 83);
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: rgb(83, 83, 83);
+  --bs-btn-disabled-border-color: rgb(83, 83, 83);
+}
+
+.fotografia h3 {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.fotografia .fotografia-contenido {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-content: space-evenly;
+  justify-content: center;
+}
+
+.testimonio {
+  padding: 50px 50px 50px 50px;
+  display: flex;
+  align-items: center;
+}
+.testimonio .foto-testimonio {
+  object-fit: cover;
+  width: 20%;
+  height: 20%;
+}
+
+.vision {
+  padding: 50px 50px 50px 50px;
+  display: flex;
+  align-items: flex-start;
+  align-items: center;
+}
+
+.mainQuienesSomos {
+  margin: 200px;
+}
+.mainQuienesSomos .imagenQuienesSomos {
+  width: 100%;
+  height: auto;
+}
+
+.contacto {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 50px 50px 50px;
+  justify-content: space-evenly;
+}
+
+.agendar {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 50px 50px 50px;
+}
+.agendar .imagenAgendar {
+  width: 100%;
+  height: auto;
+}
+
+.footer {
+  background-color: #000000;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+}
+
+.container-fluid {
+  display: flex;
+  flex-wrap: inherit;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-mobile {
+  display: none;
+}
+
+.lista {
+  padding: auto;
+}
+
+.logo-redes {
+  min-width: 20px;
+  max-width: 35px;
+}
+
+.logo-camara {
+  max-width: 50px;
+  flex-wrap: wrap;
+}
+
+.navbar {
+  display: flex;
+  width: 100%;
+  padding: 20px;
+}
+
+.navbar-brand {
+  max-width: 55px;
+  max-height: 55px;
+}
+
+.navbar-collapse {
+  flex-basis: 100%;
+  flex-grow: 0;
+  align-items: center;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+@media screen and (max-width: 576px) {
+  .navbar-desktop {
+    display: none;
+  }
+  .body {
+    display: block;
+  }
+  .header {
+    background-color: none;
+  }
+  .header div {
+    justify-content: space-evenly;
+  }
+  .div.lista {
+    display: none;
+    padding: auto;
+  }
+  .logo {
+    height: 20px;
+    width: 20px;
+  }
+  .logo-redes {
+    display: flex;
+    flex-direction: column;
+  }
+  .logo-redes-1 {
+    max-width: 25px;
+  }
+  .foto-testimonio {
+    width: 100%;
+    height: 100%;
+  }
+  .testimonio {
+    display: flex;
+    flex-direction: column;
+  }
+  .vision {
+    display: flex;
+    flex-direction: column;
+  }
+  .videoVimeo {
+    width: 100%;
+  }
+  .header div {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .container-fluid {
+    flex-direction: none;
+  }
+  .container-fluid {
+    display: flex;
+    flex-wrap: inherit;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .testimonio .foto-testimonio {
+    object-fit: cover;
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */

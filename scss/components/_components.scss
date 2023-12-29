@@ -1,0 +1,132 @@
+
+.main {
+    .section-fotografia {
+        padding-top: 150px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 50px;
+    }
+    
+} 
+
+
+.tarjeta {
+    background-color: $colorPrimario;
+    width: 250px;
+    height: 350px;
+    margin: 20px;
+    text-align: center;
+
+    p {
+        padding-top: 20px;
+    }
+
+    .btn-primary {
+        --bs-btn-color: #fff;
+        --bs-btn-bg: #000000;
+        --bs-btn-border-color: #000000;
+        --bs-btn-hover-color: #fff;
+        --bs-btn-hover-bg: #000000;
+        --bs-btn-hover-border-color: #000000;
+        --bs-btn-focus-shadow-rgb: 49, 132, 253;
+        --bs-btn-active-color: #fff;
+        --bs-btn-active-bg: rgb(83, 83, 83);
+        --bs-btn-active-border-color: rgb(83, 83, 83);
+        --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+        --bs-btn-disabled-color: #fff;
+        --bs-btn-disabled-bg: rgb(83, 83, 83);
+        --bs-btn-disabled-border-color: rgb(83, 83, 83);
+    }
+
+}
+
+
+
+.fotografia {
+    h3 {
+        padding-top: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+    }
+    .fotografia-contenido {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        align-content: space-evenly;
+        justify-content: center;
+    }
+
+}
+
+
+
+.testimonio {
+    padding: 50px 50px 50px 50px;
+    display: flex;
+    align-items: center;
+
+    .foto-testimonio {
+        object-fit: cover;
+        width: 20%;
+        height: 20%;
+    }
+}
+
+
+
+.vision {
+    padding: 50px 50px 50px 50px;
+    display: flex;
+    align-items: flex-start;
+    align-items: center;
+}
+
+
+.mainQuienesSomos {
+
+    margin: 200px;
+
+    .imagenQuienesSomos {
+        width: 100%;
+        height: auto;
+    }
+
+}
+
+
+.contacto {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 50px 50px 50px;
+    justify-content: space-evenly;
+}
+
+.agendar {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 50px 50px 50px;
+    .imagenAgendar {
+        width: 100%;
+        height: auto;
+    }
+}
+
+
+.footer {
+    background-color: #000000;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none
+}
