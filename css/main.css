@@ -65,7 +65,7 @@ p {
 .testimonio {
   padding: 50px 50px 50px 50px;
   display: flex;
-  align-items: center;
+  flex-direction: center;
 }
 .testimonio .foto-testimonio {
   object-fit: cover;
@@ -76,7 +76,7 @@ p {
 .vision {
   padding: 50px 50px 50px 50px;
   display: flex;
-  align-items: flex-start;
+  flex-direction: flex-start;
   align-items: center;
 }
 

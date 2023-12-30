@@ -1,18 +1,34 @@
 
+
+@mixin flex ($direccion) {
+    display: flex;
+    flex-direction: $direccion;
+
+}
+
+
+
+$colors: (
+    (colorPrimario: gainsboro)
+);
+
+
+
+
+
 .main {
     .section-fotografia {
         padding-top: 150px;
-        display: flex;
-        flex-direction: column;
+        @include flex (column);
         align-items: center;
         margin: 50px;
     }
-    
-} 
+
+}
 
 
 .tarjeta {
-    background-color: $colorPrimario;
+    background-color: map-get($colors, colorPrimario );
     width: 250px;
     height: 350px;
     margin: 20px;
@@ -46,11 +62,11 @@
 .fotografia {
     h3 {
         padding-top: 50px;
-        display: flex;
-        flex-direction: column;
+        @include flex (column);
         align-items: center;
-    
+
     }
+
     .fotografia-contenido {
         display: flex;
         flex-wrap: wrap;
@@ -65,8 +81,7 @@
 
 .testimonio {
     padding: 50px 50px 50px 50px;
-    display: flex;
-    align-items: center;
+    @include flex (center);
 
     .foto-testimonio {
         object-fit: cover;
@@ -79,8 +94,7 @@
 
 .vision {
     padding: 50px 50px 50px 50px;
-    display: flex;
-    align-items: flex-start;
+    @include flex (flex-start);
     align-items: center;
 }
 
@@ -88,14 +102,15 @@
 .mainQuienesSomos {
 
 
-    margin:35px;
+    margin: 35px;
 
     .imagenQuienesSomos {
         width: 100%;
         height: auto;
     }
+
     .textoQuienesSomos {
-        font-style:normal;
+        font-style: normal;
     }
 
 }
@@ -104,8 +119,7 @@
 .contacto {
     padding-top: 50px;
     padding-bottom: 50px;
-    display: flex;
-    flex-direction: column;
+    @include flex (column);
     align-items: center;
     padding: 50px 50px 50px 50px;
     justify-content: space-evenly;
@@ -114,10 +128,10 @@
 .agendar {
     padding-top: 50px;
     padding-bottom: 50px;
-    display: flex;
-    flex-direction: column;
+    @include flex (column);
     align-items: center;
     padding: 50px 50px 50px 50px;
+
     .imagenAgendar {
         width: 100%;
         height: auto;
