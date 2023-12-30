@@ -9,6 +9,10 @@ body {
   background-color: gainsboro;
 }
 
+p {
+  font-weight: 100 !important;
+}
+
 .main .section-fotografia {
   padding-top: 150px;
   display: flex;
@@ -77,11 +81,14 @@ body {
 }
 
 .mainQuienesSomos {
-  margin: 200px;
+  margin: 35px;
 }
 .mainQuienesSomos .imagenQuienesSomos {
   width: 100%;
   height: auto;
+}
+.mainQuienesSomos .textoQuienesSomos {
+  font-style: normal;
 }
 
 .contacto {
